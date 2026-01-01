@@ -3,10 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <h1 class="page-title">
-  秋田魔法学校<br class="sp-only"> 呪文解説
-</h1>
+    <title>秋田魔法学校 呪文解説</title>
     <style>
+        /* 背景と全体のフォント設定 */
         body { 
             background-color: #1a1a1a;
             background-image: radial-gradient(#2c2c2c 1px, transparent 1px);
@@ -19,6 +18,7 @@
             margin: 0;
         }
 
+        /* 古文書風のコンテンツボックス */
         .content-box { 
             background: #f4e4bc;
             color: #2c1e14;
@@ -40,7 +40,6 @@
             color: #5d3a1a;
         }
 
-        /* 埋め込みリンク風の装飾 */
         .location-info {
             background: rgba(139, 69, 19, 0.05);
             border: 1px solid #8b4513;
@@ -48,12 +47,12 @@
             margin-bottom: 30px;
             border-radius: 4px;
         }
+
         .location-info a {
             color: #0056b3;
             text-decoration: none;
             font-weight: bold;
         }
-        .location-info a:hover { text-decoration: underline; }
 
         h2 {
             font-size: 1.4rem;
@@ -73,7 +72,7 @@
         .spell-name {
             font-size: 1.5rem;
             font-weight: bold;
-            color: #a00; /* 呪文は少し赤みを持たせて強調 */
+            color: #a00;
             display: block;
         }
 
@@ -87,6 +86,7 @@
             color: #555;
             font-style: italic;
         }
+
         .spell-motion::before {
             content: "【杖の動き】 ";
             font-weight: bold;
@@ -94,20 +94,12 @@
             font-style: normal;
         }
 
-        /* 奥義特別装飾 */
         .ultimate-spell {
             background: rgba(212, 175, 55, 0.2);
             padding: 20px;
             border: 2px double #d4af37;
             text-align: center;
             margin-top: 50px;
-        }
-        .ultimate-title {
-            font-size: 1.2rem;
-            font-weight: bold;
-            color: #8b4513;
-            display: block;
-            margin-bottom: 10px;
         }
 
         .magic-glow {
@@ -178,7 +170,6 @@
             <span class="spell-name magic-glow" style="font-size: 2.2rem;">ンダ！（そうだ）</span>
             <p class="spell-effect">効果：自分の魔法の威力を二倍にする、あるいは相手の魔法を「肯定（反射）」して跳ね返す最強のカウンター。</p>
         </div>
-
     </div>
 </body>
 </html>
